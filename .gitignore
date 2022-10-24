@@ -2,6 +2,8 @@
 
 # dependencies
 /node_modules
+/packages/hlavni/node_modules
+/packages/vedlejsi/node_modules
 /.pnp
 .pnp.js
 
@@ -11,6 +13,7 @@
 # next.js
 /.next/
 /out/
+/packages/hlavni/.next
 
 # production
 /build

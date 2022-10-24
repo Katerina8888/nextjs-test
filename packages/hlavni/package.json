@@ -1,19 +1,13 @@
 {
-  "name": "next",
+  "name": "hlavni",
   "version": "0.1.0",
-  "scripts": {
-    "dev": "cd packages/hlavni && next dev",
-    "build": "cd packages/hlavni && next build",
-    "start": "cd packages/hlavni && next start",
-    "lint": "cd packages/hlavni && next lint"
-  },
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "dependencies": {
+    "@next/vedlejsi": "^1.0.0",
+    "classnames": "^2.3.1",
     "next": "12.3.1",
     "next-images": "^1.8.4",
+    "next-transpile-modules": "^9.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "reactstrap": "^9.1.4",
@@ -29,6 +23,7 @@
     "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.25.0",
     "eslint-config-next": "12.3.1",
+    "next-compose": "^0.0.2",
     "typescript": "4.8.4"
   },
   "resolutions": {
